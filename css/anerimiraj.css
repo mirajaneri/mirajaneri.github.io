@@ -1,0 +1,18 @@
+body {
+	background: #E2E2EE;
+}
+
+.nav-link {
+	color: #854C77;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #854C77;
+}
+.accent-bg{
+	background: #F1EDF4;
+}
+.title-img{
+	max-width: 250px;
+	height:  auto;
+}
