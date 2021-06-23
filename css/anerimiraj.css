@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'adlery_proregular';
+    src: url('../fonts/adlery-pro-trial-webfont.woff2') format('woff2'),
+         url('../fonts/adlery-pro-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	background: #E2E2EE;
 }
@@ -27,4 +36,10 @@ body {
 
 .intro .container {
 	height: 600px;
+}
+.hashtag {
+	font-family: 'adlery_proregular';
+}
+#demo {
+	margin-top: 5rem;
 }
