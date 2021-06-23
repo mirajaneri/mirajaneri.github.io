@@ -9,10 +9,22 @@ body {
     color: #fff;
     background-color: #854C77;
 }
-.accent-bg{
-	background: #F1EDF4;
+.bg-light {
+	background-color: #F1EDF4 !important;
 }
-.title-img{
-	max-width: 250px;
-	height:  auto;
+.navbar {
+	border-bottom: 1px solid #854C77;
+}
+.intro{
+	background: url('../img/mirajaneri.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 800px;
+	color: #FFFFFF;
+}
+
+.intro .container {
+	height: 600px;
 }
