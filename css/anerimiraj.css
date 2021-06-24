@@ -27,19 +27,43 @@ body {
 .intro{
 	background: url('../img/mirajaneri.jpg');
 	background-attachment: fixed;
-	background-position: center center;
+	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 800px;
 	color: #FFFFFF;
 }
-
 .intro .container {
-	height: 600px;
+	height: 500px;
 }
 .hashtag {
 	font-family: 'adlery_proregular';
 }
 #demo {
-	margin-top: 5rem;
+	margin-top: 3rem;
+}
+
+@media (max-width: 575.98px) {
+	.hashtag{
+		margin-top: 15rem;
+	}
+	#demo {
+		margin-top: 2rem;
+	}
+	.intro .container {
+		height: 400px;
+	}
+	.intro{
+		background: url('../img/mirajaneri.jpg');
+		background-attachment: initial;
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #FFFFFF;
+	}	
+}
+
+@media (min-width: 992px) {
+	.main{
+		min-height: 100vh;
+	}
 }
